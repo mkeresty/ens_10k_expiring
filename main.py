@@ -87,7 +87,7 @@ def getToken(ensName):
 #getToken('136')
 
 
-for i in range(1647,5000):
+for i in range(7500,10000):
     print(i)
     time.sleep(.02)
     getToken(str(i))
