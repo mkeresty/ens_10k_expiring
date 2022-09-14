@@ -24,7 +24,7 @@ open('firebase.json')
 cred = credentials.Certificate('firebase.json')
 
 
-databaseurl = "https://ens-master-default-rtdb.firebaseio.com/"
+databaseurl = ""
 
 firebase_admin.initialize_app(cred, {'databaseURL': databaseurl})
 
